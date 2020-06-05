@@ -199,7 +199,7 @@ function setup_display_post_enqueue() {
     //wp_enqueue_script( 'spk_screensizer_js', plugins_url( 'js/asset.js', __FILE__ ), NULL, NULL, true );
     
     // enqueue styles
-    wp_enqueue_style( 'setup_feature_display_posts_style', plugins_url( 'css/setup_feature_display_posts_style.css', __FILE__ ) );
+    wp_enqueue_style( 'setup_display_posts_style', plugins_url( 'css/setup-display-posts-style.css', __FILE__ ) );
 
 }
 

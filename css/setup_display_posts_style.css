@@ -1,0 +1,150 @@
+/* SETUP-BE | 1.0.0 | 200408 | setup-be/base/setup-be-100/base.scss
+---------------------------------------------------------------------------------------------------- */
+/*  SETUP-BE | 1.0.0 | 200408 | setup-be/modules/setup-be-100/brand-color.scss
+---------------------------------------------------------------------------------------------------- */
+/**
+ * Brand Color
+ *
+ */
+/*  SETUP-BE | 1.0.0 | 200408 | setup-be/modules/setup-be-100/helpers.scss
+---------------------------------------------------------------------------------------------------- */
+/**
+ * Button Reset
+ *
+ */
+/**
+ * Grid, Center Last
+ *
+ */
+/**
+ * Margin, No Edge
+ * Removes left margin from first item, right margin from last item
+ */
+/**
+ * Icon Position
+ *
+ */
+/**
+ * Block Cover
+ * Creates a block that covers the full width/height of parent div. Typically used on a :before pseudo element
+ */
+/**
+ * Placeholder Color
+ *
+ */
+/**
+ * Clearfix
+ *
+ */
+/**
+ * Font Sizes
+ *
+**/
+/**
+ * Columns
+ *
+ */
+/**
+ * Columns, Mobile
+ *
+ */
+/**
+ * Columns, Tablet
+ *
+ */
+/**
+ * Columns, Tablet Up
+ *
+ */
+/**
+ * Columns, Desktop
+ *
+ */
+/* SETUP-BE | 1.0.0 | 200408 | setup-be/modules/setup-be-100/base-styles.scss
+---------------------------------------------------------------------------------------------------- */
+/*  SETUP-BE | 1.0.0 | 200420 | setup-be/type/setup-be-100/fontsize.scss
+---------------------------------------------------------------------------------------------------- */
+.fontsize-xhuge {
+  font-size: 3.25rem; }
+  @media (min-width: 768px) {
+    .fontsize-xhuge {
+      font-size: 3.625rem; } }
+  @media (min-width: 992px) {
+    .fontsize-xhuge {
+      font-size: 4rem; } }
+.fontsize-huge {
+  font-size: 2.25rem; }
+  @media (min-width: 768px) {
+    .fontsize-huge {
+      font-size: 2.625rem; } }
+  @media (min-width: 992px) {
+    .fontsize-huge {
+      font-size: 3rem; } }
+.fontsize-large {
+  font-size: 1.5rem; }
+  @media (min-width: 768px) {
+    .fontsize-large {
+      font-size: 1.875rem; } }
+  @media (min-width: 992px) {
+    .fontsize-large {
+      font-size: 2.25rem; } }
+.module.card.alpha .item.title, .module.stack.alpha .item.title, .fontsize-medium {
+  font-size: 1.25rem; }
+  @media (min-width: 768px) {
+    .module.card.alpha .item.title, .module.stack.alpha .item.title, .fontsize-medium {
+      font-size: 1.375rem; } }
+  @media (min-width: 992px) {
+    .module.card.alpha .item.title, .module.stack.alpha .item.title, .fontsize-medium {
+      font-size: 1.5rem; } }
+.fontsize-small {
+  font-size: 1.125rem; }
+  @media (min-width: 768px) {
+    .fontsize-small {
+      font-size: 1.25rem; } }
+.fontsize-normal {
+  font-size: 1rem; }
+  @media (min-width: 768px) {
+    .fontsize-normal {
+      font-size: 1.125rem; } }
+.module.card.alpha .item.excerpt, .fontsize-base {
+  font-size: 0.875rem; }
+  @media (min-width: 768px) {
+    .module.card.alpha .item.excerpt, .fontsize-base {
+      font-size: 1rem; } }
+.module.card.alpha .item.author, .module.stack.alpha .item.author, .module.card.alpha .item.category, .module.stack.alpha .item.category, .fontsize-smaller {
+  font-size: 0.875rem; }
+
+.fontsize-tiny {
+  font-size: 0.75rem; }
+
+/* SETUP-BE | 1.0.0 | 200420 | setup-be/feature/setup-be-100/display-posts.scss
+---------------------------------------------------------------------------------------------------- */
+.module.stack.alpha {
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  margin-bottom: 1.5rem; }
+  .module.stack.alpha .group.info {
+    margin-left: 1rem; }
+
+.module.stack.alpha img {
+  max-width: 80px; }
+
+.module.card.alpha .item.title, .module.stack.alpha .item.title {
+  font-weight: 500; }
+  .module.card.alpha .item.title a, .module.stack.alpha .item.title a {
+    text-decoration: none; }
+
+.module.card.alpha .item.category, .module.stack.alpha .item.category {
+  font-weight: 700;
+  text-transform: uppercase; }
+  .module.card.alpha .item.category a, .module.stack.alpha .item.category a {
+    text-decoration: none; }
+
+.module.card.alpha .item.author, .module.stack.alpha .item.author {
+  font-weight: 400; }
+  .module.card.alpha .item.author a, .module.stack.alpha .item.author a {
+    text-decoration: none; }
+
+.module.card.alpha .item.excerpt {
+  font-weight: 400; }

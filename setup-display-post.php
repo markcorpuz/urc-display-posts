@@ -191,7 +191,7 @@ if( !function_exists( 'setup_starter_reset_query' ) ) {
     
 }
 
-
+/*
 // Enqueue Style
 function setup_display_post_enqueue() {
 
@@ -209,3 +209,5 @@ if ( !is_admin() ) {
     add_action( 'wp_enqueue_scripts', 'setup_display_post_enqueue' );
 
 }
+*/
+
